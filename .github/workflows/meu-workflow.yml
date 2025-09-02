@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Nome e RA
-        run: echo "6324303 - Luiz Felipe"
+        run: echo "6324303 -- Luiz Felipe"
       - name: Mostra o diretório de trabalho
         run: pwd
       - name: Nome do repositório
