@@ -1,0 +1,22 @@
+name: meu workflow
+
+on:
+  push:
+
+    branches:
+      - master
+
+    branches-ignore:
+      - 'READEME.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Nome e RA
+        run: echo "6324303 - Luiz Felipe"
+      - name: Mostra o diretório de trabalho
+        run: pwd
+      - name: Nome do repositório
+        run: echo "Repositório ${{ github.repository }}"
