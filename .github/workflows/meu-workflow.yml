@@ -3,9 +3,6 @@ name: Meu workflow
 on:
   push:
 
-    branches:
-      - master
-
     branches-ignore:
       - 'READEME.md'
 
