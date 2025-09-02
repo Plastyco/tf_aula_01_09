@@ -5,6 +5,9 @@ on:
 
     branches:
       - main
+    
+    tags-ignore:
+      - 'READEME.md'
 
 jobs:
   build:
