@@ -1,1 +1,1 @@
-"salve salve yodinhasssaaa"
+"salve salve yodinha"
